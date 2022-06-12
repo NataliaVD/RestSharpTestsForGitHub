@@ -16,7 +16,7 @@ namespace TestsWithRestSharpForGitHub
         public void Setup()
         {
             this.client = new RestClient("https://api.github.com");
-            this.client.Authenticator = new HttpBasicAuthenticator("NataliaVD", "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");
+            this.client.Authenticator = new HttpBasicAuthenticator("NataliaVD", "********");
         }
 
         [Test]
