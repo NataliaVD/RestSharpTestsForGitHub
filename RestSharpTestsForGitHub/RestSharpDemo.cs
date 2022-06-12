@@ -4,7 +4,7 @@ using RestSharp.Authenticators;
 using System.Text.Json;
 
 var client = new RestClient("https://api.github.com");
-client.Authenticator = new HttpBasicAuthenticator("NataliaVD", "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");
+client.Authenticator = new HttpBasicAuthenticator("NataliaVD", "*********");
 
 var request = new RestRequest("users/NataliaVD/repos");
 var response = await client.ExecuteAsync(request);
